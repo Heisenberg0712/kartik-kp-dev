@@ -36,3 +36,19 @@ html {
   @apply opacity-100 translate-y-0;
 }
 
+/* Scroll animations */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-animate.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-animate-delay {
+  transition-delay: 0.2s;
+}
+

@@ -22,4 +22,7 @@ import Hero from "./components/Hero.vue";
 import Experience from "./components/Experience.vue";
 import Projects from "./components/Projects.vue";
 import Contact from "./components/Contact.vue";
+import { useScrollAnimation } from "./composables/useScrollAnimation";
+
+useScrollAnimation();
 </script>

@@ -1,11 +1,11 @@
 <template>  <section id="projects" class="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-12 md:pt-16 pb-16 sm:pb-20 md:pb-24">
-    <h2 class="text-sm sm:text-base md:text-lg tracking-[0.2em] uppercase text-[var(--color-fg)] font-light mb-12 sm:mb-16 md:mb-20">
+    <h2 class="text-sm sm:text-base md:text-lg tracking-[0.2em] uppercase text-[var(--color-fg)] font-light mb-12 sm:mb-16 md:mb-20 scroll-animate">
       Projects
     </h2>
 
     <div class="space-y-12 sm:space-y-16 md:space-y-20">
       <!-- SplitKaro -->
-      <div class="group relative">
+      <div class="group relative scroll-animate scroll-animate-delay">
         <!-- Subtle accent line -->
         <div class="gradient-accent"></div>
         
@@ -49,7 +49,7 @@
       </div>
 
       <!-- Dream Analyzer -->
-      <div class="group relative">
+      <div class="group relative scroll-animate scroll-animate-delay">
         <!-- Subtle accent line -->
         <div class="gradient-accent"></div>
         

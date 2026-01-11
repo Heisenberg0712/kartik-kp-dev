@@ -1,10 +1,10 @@
 <template>  <section id="experience" class="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 pt-12 md:pt-16 pb-16 sm:pb-20 md:pb-24">
-    <h2 class="text-sm sm:text-base md:text-lg tracking-[0.2em] uppercase text-[var(--color-fg)] font-light mb-12 sm:mb-16 md:mb-20">
+    <h2 class="text-sm sm:text-base md:text-lg tracking-[0.2em] uppercase text-[var(--color-fg)] font-light mb-12 sm:mb-16 md:mb-20 scroll-animate">
       Experience
     </h2>
 
     <!-- Experience Item -->
-    <div class="relative pl-8 sm:pl-10 md:pl-12 pb-12 sm:pb-16">
+    <div class="relative pl-8 sm:pl-10 md:pl-12 pb-12 sm:pb-16 scroll-animate scroll-animate-delay">
       <div class="gradient-line"></div>
       
       <div>
